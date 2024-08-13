@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 31%, rgba(0,212,255,1) 87%);
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,8 +15,10 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 500px;
     text-align: center;
+    border-color: black ;
+    border:5px;
 }
 
 h1 {
@@ -48,7 +51,7 @@ input[type="checkbox"] {
     background-color: #007BFF;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border-color: black;
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
@@ -62,7 +65,9 @@ input[type="checkbox"] {
 }
 
 .back-btn {
-    background-color: #6c757d;
+    background-color: #656569;
+    border-color: black;
+    border-radius: 4px;
 }
 
 .back-btn:hover {
